@@ -4,7 +4,7 @@ class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.red[50],
+      color: Colors.redAccent[50],
     );
   }
 }
