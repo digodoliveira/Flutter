@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "563312389794",
+    "firebase_url": "https://messengerflutter-b6739.firebaseio.com",
+    "project_id": "messengerflutter-b6739",
+    "storage_bucket": "messengerflutter-b6739.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563312389794:android:e13ea511975a7b7c7831fb",
+        "android_client_info": {
+          "package_name": "br.com.rdg.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563312389794-s9eid62pb3jngjl1usu335f24mj3ktvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.rdg.chat",
+            "certificate_hash": "eb5d29364ce7773b578bb4ac1e855ea07422d026"
+          }
+        },
+        {
+          "client_id": "563312389794-btv6hjhgbb48a3bhh0mr1ntoc690baq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsM2wnokI9U8QWEaM0MjOTjnQGlmgKJSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563312389794-btv6hjhgbb48a3bhh0mr1ntoc690baq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
