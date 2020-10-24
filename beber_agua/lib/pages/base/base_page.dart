@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:beber_agua/pages/history/history_page.dart';
 import 'package:beber_agua/pages/home/home_page.dart';
 import 'package:beber_agua/pages/settings/settings_page.dart';
