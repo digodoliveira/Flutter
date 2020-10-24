@@ -1,0 +1,50 @@
+  /*
+  // Incluir "async" na função
+
+  -- Incluir/Atualizar dados
+  Firestore.instance
+      .collection('usuario')
+      .document('6')
+      .setData({'nome': 'matheus', 'senha': '369'});
+  //.updateData({'senha': '147'});
+  */
+
+  /*
+  // Buscar dados
+  DocumentSnapshot document =
+      await Firestore.instance.collection('usuario').document('1').get();
+
+  print(document.data['nome']);
+  */
+
+  /*
+  // Buscar dados de um documento e "escutar alterações
+  Firestore.instance
+      .collection('usuario')
+      .document('1')
+      .snapshots()
+      .listen((document) {
+    print(document.data);
+  });
+  */
+
+  /*
+  // Buscar dados de vários documentos
+  QuerySnapshot snapshot =
+      await Firestore.instance.collection('usuario').getDocuments();
+
+  //print(snapshot.documents);
+
+  for (DocumentSnapshot document in snapshot.documents) {
+    print(document.data);
+  }
+  */
+
+  /*
+  // Buscar dados de vários documentos e "escutar alterações
+  Firestore.instance.collection('usuario').snapshots().listen((snapshot) {
+    for (DocumentSnapshot document in snapshot.documents) {
+      print(document.data);
+    }
+  });
+  */
